@@ -173,7 +173,8 @@ a {
 .contacts-link:hover,
 .contacts-link:focus,
 .nav-link:hover,
-.nav-link:focus .nav-link.current {
+.nav-link:focus,
+.nav-link.current {
   color: #404bbf;
 }
 
@@ -449,11 +450,11 @@ a {
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 
 .footer-left-position {
   max-width: 264px;
+  margin-right: 120px;
 }
 
 .footer-logo .logo-part {
